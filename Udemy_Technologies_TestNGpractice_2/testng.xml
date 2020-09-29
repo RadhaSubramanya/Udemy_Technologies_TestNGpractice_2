@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="BVT">
+  <test thread-count="5" name="Workspace">
+    <classes>
+      <class name="test.day1"/>
+      <class name="test.day2"/>
+    </classes>
+  </test> <!-- Workspace -->
+   <test thread-count="5" name="Coursespace">
+    <classes>
+      <class name="test.day3"/>
+      <class name="test.day4"/>
+    </classes>
+  </test> <!-- Coursespace -->
+</suite> <!-- BVT -->
